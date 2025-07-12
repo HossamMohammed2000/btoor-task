@@ -1,0 +1,225 @@
+/* Global Styles */
+body {
+  font-family: "Almarai", serif;
+}
+a {
+  text-decoration: none;
+  color: #6d738f;
+}
+.text-heading {
+  font-family: "Amiri", serif;
+}
+.color-primary {
+  color: #897ae3;
+}
+.color-secondary {
+  color: #6d738f;
+}
+.bg-color-primary {
+  background-color: #897ae3;
+}
+
+.bg-color-secondary {
+  background-color: #e5e2f7;
+}
+
+.bg-color-footer {
+  background-color: #101840;
+}
+
+/* End Global Styles */
+
+/* Navbar Styles */
+.myNav {
+  font-family: "Almarai", serif;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  background-color: #fff !important;
+}
+.img-s {
+  height: 50px;
+  width: 300px;
+}
+
+.nav-item .nav-link {
+  color: #6d738f;
+}
+
+.nav-item .login {
+  background-color: #897ae3;
+  color: #fff;
+  border-radius: 10px;
+  padding: 10px 20px;
+  margin-right: 10px;
+}
+
+.nav-item .nav-link:hover {
+  color: #897ae3;
+}
+
+.nav-item .login:hover {
+  background-color: #6d738f;
+  color: #fff;
+}
+
+/* End Navbar Styles */
+
+/* Header Styles */
+.bg-header {
+  background-color: #e5e2f7;
+  background-image: url(../images/bg-main-2.png);
+  background-size: contain;
+  background-position: left -550px bottom -100px;
+  background-repeat: no-repeat;
+}
+
+.btn {
+  border-radius: 10px;
+  padding: 10px 20px;
+  width: 350px;
+}
+
+.btn-primary {
+  background-color: #897ae3;
+  color: #fff;
+  border: none;
+}
+
+.btn-outline-primary {
+  background-color: white;
+  color: #897ae3;
+  border: 2px solid #897ae3;
+}
+
+.btn-outline-primary i {
+  color: #897ae3;
+}
+
+.btn-primary:hover {
+  background-color: #6d738f;
+  color: #fff;
+  border: none;
+}
+
+.btn-outline-primary:hover {
+  background-color: #897ae3;
+  color: #fff;
+  border: none;
+}
+
+.btn-outline-primary:hover i {
+  color: #fff;
+}
+
+button i {
+  margin-top: 1px; /* aligns icons vertically */
+  font-size: 1rem;
+  line-height: 1;
+}
+
+button span {
+  line-height: 1.2;
+}
+
+/* End Header Styles */
+
+/* 1st Section Styles */
+
+.card {
+  border-radius: 10px;
+  padding: 20px;
+  background-color: #fff;
+  width: 100%;
+  height: 100%;
+}
+
+.card-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  margin: 0 auto 20px;
+  border-radius: 50%;
+  background-color: #897ae3;
+}
+
+.card-content {
+  text-align: center;
+}
+
+.card-content h5 {
+  font-size: 1.25rem;
+  margin-bottom: 10px;
+}
+
+.card-content p {
+  font-size: 0.875rem;
+  color: #6d738f;
+}
+
+/* End 1st Section Styles */
+
+/* 2nd Section Styles */
+.section-2 {
+  background-color: #e5e2f7;
+}
+
+.progress {
+  height: 20px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.progress-bar {
+  height: 100%;
+  transition: width 0.5s;
+  border-radius: 10px;
+}
+
+.donation-card {
+  border-radius: 10px;
+  background-color: #fff;
+  margin-bottom: 20px;
+}
+
+/* End 2nd Section Styles */
+
+/* 4th Section Styles */
+
+.section-4 {
+  background-image: url(../images/bg-leg.png);
+  background-size: contain;
+  background-position: center;
+  background-position: top right;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+}
+
+/* End 4th Section Styles */
+
+/* 5th Section Styles */
+
+.section-5 {
+  background-color: #e5e2f7;
+}
+
+.update-card .card-img img {
+  aspect-ratio: 1/1;
+  object-fit: cover;
+}
+
+/* End 5th Section Styles */
+
+/* 7th Section Styles */
+
+.section-7 {
+  background-image: url(../images/bg-leg-reverse.png);
+  background-size: contain;
+  background-position: center;
+  background-position: left;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+}
+
+/* End 7th Section Styles */
